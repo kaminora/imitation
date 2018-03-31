@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
+    "eslint": "eslint --ext .js src test config ./"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
