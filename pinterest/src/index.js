@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Root from './components';
+import Routes from './routes';
 
 window.addEventListener('load', () => {
   const container = window.document.querySelector('#app');
 
   ReactDOM.render(
-    <Root />,
+    <Routes />,
     container,
   );
 });
