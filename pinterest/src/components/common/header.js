@@ -1,7 +1,18 @@
 import React from 'react';
 
-const Header = () => (
-  <div>Header</div>
-);
+import { Header } from '../../styles/common/header';
 
-export default Header;
+export default () => (
+  <Header>
+    {/*
+    <Logo />
+    <Search />
+    <Home />
+    <Pickup />
+    <UserMenu />
+    <Notification />
+    <HeaderBorder />
+    <Settings />
+    */}
+  </Header>
+);
